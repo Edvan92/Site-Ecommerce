@@ -143,6 +143,14 @@ header, header h1{
    text-decoration: none; 
 }
 
+.painel img{
+    box-shadow: 3px 7px 13px;
+    transition: 0.4s all ease-in-out; 
+}
+
+.painel img:hover{
+    transform: scale(1.2);
+}
 .novidades{
     float:left;
     background-color: #f5dcdc;
