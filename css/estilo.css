@@ -69,8 +69,7 @@ header, header h1{
     text-indent: -9999px;
 }
 
-.busca, 
-.menu-departamento{
+.busca, .menu-departamento{
     background-color: #e6e2e2;
     font-weight: bold;
     text-transform: uppercase;
@@ -144,8 +143,9 @@ header, header h1{
 }
 
 .painel img{
-    box-shadow: 3px 7px 13px;
-    transition: 0.4s all ease-in-out; 
+    box-shadow: 1px 1px 999px;
+    transition: 0.4s all ease-in-out;
+    border-radius: 5px; 
 }
 
 .painel img:hover{
@@ -154,11 +154,13 @@ header, header h1{
 .novidades{
     float:left;
     background-color: #f5dcdc;
+    border-radius: 5px;
 }
 
 .mais-vendido{
     background-color: #dcdcf5;
-    float: right;
+    float: right;  
+    border-radius: 5px;
 }
 
 /***Fim Painel ****/
