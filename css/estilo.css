@@ -137,7 +137,11 @@ header, header h1{
 /*****Final .container .destaque*****/
 
 /*****Paineis******/
-.painel
+.painel h2::before{
+    content: '\2756';
+    padding-right: 5px;
+    opacity: 0.4;
+}
 .painel{
     margin: 10px 0;
     padding: 10px;
