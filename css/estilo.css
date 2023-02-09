@@ -35,6 +35,7 @@ header, header h1{
         text-align: right;
         width: 130px;
 }
+/*****Final Cabeçalho *****/
 
 /*****Início Navbar *****/
 .menu-opc{
@@ -51,6 +52,14 @@ header, header h1{
 .menu-opc ul li{
     display: inline;
     margin-left: 20px;
+}
+
+.menu-opc a:hover{
+    color:#007dc6;
+}
+
+.menu-opc a:active{
+    color: #867dc6;
 }
 /***** Final do Navbar*******/
 
@@ -97,12 +106,29 @@ header, header h1{
     list-style: none;
 }
 
+.menu-departamento li ul{
+    display: none;
+}
+
+.menu-departamento li:hover ul{
+    display: block;
+}
+
+.menu-departamento ul ul li{
+    background-color: #dcd;
+
+}
 .menu-departamento a{
     color: #333333;
     text-decoration: none;
     margin-top: 10px;
     padding-bottom: 10px;
 }
+
+.menu-departamento li li a::before{
+    content: '-';
+}
+
 .busca input[type=search]{
     width: 170px;
     border-radius: 15px;
@@ -150,6 +176,7 @@ header, header h1{
 
 .painel img:hover{
     transform: scale(1.2);
+    
 }
 .novidades{
     float:left;
@@ -204,3 +231,4 @@ footer .container{
 .social a[href*="plus.google.com"]{
     background-image: url(img/googleplus.png);
 }
+

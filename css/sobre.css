@@ -10,6 +10,10 @@ h1{
     padding: 10px;
 }
 
+h1 + p{
+    text-indent: 0;
+}
+
 h2{
     border-bottom: 2px solid #333333;
     margin-top: 30px;
@@ -61,4 +65,10 @@ footer img{
     margin:0 0 10px 10px;
 }
 
+p::first-letter{
+    font-weight: bold;
+}
 
+p::first-line{
+    font-variant: small-caps;
+}
