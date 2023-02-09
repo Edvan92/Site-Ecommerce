@@ -126,7 +126,8 @@ header, header h1{
 }
 
 .menu-departamento li li a::before{
-    content: '-';
+    content: '\2015';
+    padding-right: 3px;
 }
 
 .busca input[type=search]{
@@ -136,6 +137,7 @@ header, header h1{
 /*****Final .container .destaque*****/
 
 /*****Paineis******/
+.painel
 .painel{
     margin: 10px 0;
     padding: 10px;
