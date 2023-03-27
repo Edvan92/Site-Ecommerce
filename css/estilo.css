@@ -116,6 +116,7 @@ header, header h1{
 
 .menu-departamento li:hover ul{
     display: block;
+    
 }
 
 .menu-departamento ul ul li{
@@ -142,6 +143,17 @@ header, header h1{
     height: 22px;
     border-radius: 15px;
 }
+
+.drop:after{
+    margin-left: 60px;
+    content: '\25B6';
+}
+
+.drop:hover:after{
+    margin-left: 60px;
+    content: '\25BC';
+}
+
 /*****Final .container .destaque*****/
 
 /*****Paineis******/
