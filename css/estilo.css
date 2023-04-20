@@ -137,11 +137,12 @@ header, header h1{
 
 .busca input[type=search]{
     text-indent: 10px;
-    background-color: #333;
-    color:#fff;
+    background-color: #ffffff;
+    color:#000000;
     width: 170px;
     height: 22px;
     border-radius: 15px;
+    box-shadow: 1px 1px 5px ;
 }
 
 .drop:after{
